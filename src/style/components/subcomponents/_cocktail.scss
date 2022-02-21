@@ -1,0 +1,38 @@
+.coctail {
+    display: flex;
+    border-radius: 6px;
+
+    &-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        & p {
+            text-align: center;
+        }
+    }
+
+    & ul {
+        border-radius: 6px;
+    }
+
+    &-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & img {
+            height: 150px;
+            border-radius: 6px;
+
+            @media screen and (min-width: 991px) and (max-width:1365px) {
+
+                height: 120px;
+            }
+
+        }
+    }
+
+
+}

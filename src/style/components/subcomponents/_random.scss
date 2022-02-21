@@ -1,0 +1,12 @@
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & button {
+        border-radius: 6px;
+        color: white;
+        background: $gray;
+        border: none;
+    }
+}
