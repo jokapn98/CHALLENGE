@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Cocktails from "./components/Cocktails";
 
 function App() {
-  return <Cocktails />;
+  return <Cocktails/>;
 }
 
 export default App;

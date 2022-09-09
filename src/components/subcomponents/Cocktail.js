@@ -14,6 +14,7 @@ export default function Cocktail({ data }) {
     strIngredient6,
     strIngredient7
   } = data;
+  
   return (
     <div className="coctail bg-silver col-12  col-lg-5 mx-3 mt-5 p-2">
       <div className="coctail-img col-4">
